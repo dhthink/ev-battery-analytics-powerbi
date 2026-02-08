@@ -13,7 +13,7 @@ with open(input_file, 'r') as f:
 
 # Step 3: Convert to DataFrame
 df = pd.DataFrame(data["data"])
-print("\nFirst 5 rows of original data:")
+print("\nFirst 50 rows of original data:")
 print(df.head())
 print("\nColumns:")
 print(df.columns)
