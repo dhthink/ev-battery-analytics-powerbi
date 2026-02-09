@@ -1,0 +1,6 @@
+The python code was to get a copy of the data into Databricks free edition.
+I found the free Azure account only good for storage. There where so many limitations it was almost useless.  You could not run anything on azure Databricks. (anything to speak of) You only get 4 Clusters.  You can run some python to see a few lines from the container.  When you tried to look at it all it kept erroring out due to lack of resources.  
+
+Then I decided I would use databricks free to do the compute except I ran into limitations there and wouldn't let me save the cvs off the blob storage to a volume in Databricks.
+
+I resolved this by saving the container to a local machine via the dropdown on Azure.
